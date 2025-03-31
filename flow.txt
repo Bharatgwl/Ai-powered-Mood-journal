@@ -1,0 +1,16 @@
+mental_health_journal/
+│
+├── app.py                       # Main Streamlit app
+├── requirements.txt             # Python dependencies
+│
+├── data/
+│   └── entries.csv              # CSV file containing journal entries & moods
+│
+├── utils/
+│   └── analysis.py              # Functions for sentiment analysis & mood trends
+│   └── io_handler.py            # File read/write utilities
+│
+├── assets/
+│   └── mood_graph.png           # (Optional) Saved plots/images
+│
+└── README.md                    # Project overview and instructions
